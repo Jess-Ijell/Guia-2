@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Ejercicio 4 InputField
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -44,12 +46,5 @@ public class Division : MonoBehaviour
             textoResultado.text = "El resultado es: " + (num1 / num2);
         }
 
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
