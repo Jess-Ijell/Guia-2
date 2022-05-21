@@ -10,7 +10,7 @@ public class ManipulacionCubos : MonoBehaviour
     GameObject clone;
     public GameObject cube1;
     public GameObject cube2;
-    public GameObject cube3;
+    public GameObject cube3;    
 
     public void ActivarBtn1()
     {
@@ -46,6 +46,9 @@ public class ManipulacionCubos : MonoBehaviour
                 clone = Instantiate(cube3);
                 break;
         }
+
+        destroy(clone, 2);
+        clone.transform.position = new Vector3(0,1,0);
     }
 
     // Start is called before the first frame update
