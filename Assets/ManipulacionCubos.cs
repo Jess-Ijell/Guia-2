@@ -47,8 +47,8 @@ public class ManipulacionCubos : MonoBehaviour
                 break;
         }
 
-        destroy(clone, 2);
         clone.transform.position = new Vector3(0,1,0);
+        Destroy(clone, 2);
     }
 
     // Start is called before the first frame update
